@@ -5,7 +5,7 @@ import sitemap from '@astrojs/sitemap';
 
 // https://astro.build/config
 export default defineConfig({
-	site: 'https://rochel.github.io',
+	site: 'https://rochelwang1205.github.io',
 	base: "/blog",
-	integrations: [mdx(), sitemap()],
+	// integrations: [mdx(), sitemap()],
 });
